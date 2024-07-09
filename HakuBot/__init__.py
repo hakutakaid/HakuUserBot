@@ -1,5 +1,7 @@
 #Created By HakutakaID # TELEGRAM t.me/hakutakaid
 import logging
+import time
+from datetime import datetime
 from pyrogram import Client as mecha
 from pyrogram import filters as indri
 from pyrogram.handlers import CallbackQueryHandler, MessageHandler
@@ -7,6 +9,10 @@ from config import *
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
+
+START_TIME = datetime.now()
+
+StartTime = time.time()
 
 class Ubot(mecha):
     def __init__(self, **kwargs):
