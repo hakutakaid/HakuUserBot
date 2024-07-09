@@ -1,0 +1,7 @@
+##BOT SEDERHANA BASED PYROGRAM
+
+YA ENTAHLAH GABUT DOANG
+
+##CREDIT
+MAN for PyroMan-Userbot
+Dan Pyrogram
